@@ -1,0 +1,25 @@
+{
+  "name": "itolymp",
+  "authors": [
+    "VitalikMelnik <vitalikmelnik20000@gmail.com>"
+  ],
+  "description": "project for Olympics",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-scroll": "^1.0.0",
+    "angular-animate": "^1.5.8",
+
+  }
+}

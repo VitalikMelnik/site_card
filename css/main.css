@@ -1,0 +1,214 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/myGeorgia.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: url(../img/covers/bicycles.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 660px;
+    -webkit-box-shadow: 0px 0px 100px 0px #000000 inset;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+
+}
+
+#text_in_header {
+    margin-top: 400px;
+    vertical-align: bottom;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.text_in_div {
+    line-height: 1.8em;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 17px;
+
+}
+
+#img_2 {
+    background: url(../img/covers/globes.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+}
+
+.svg {
+    position: absolute;
+    float: left;
+    width: 125%;
+
+}
+
+#text_2 {
+    margin-top: 250px;
+    vertical-align: bottom;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#text_3 {
+    margin-top: 250px;
+    vertical-align: bottom;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.map {
+    margin-top: 100px;
+}
+
+#img_4 {
+    background: url(../img/covers/type.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 470px;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+}
+
+#text_in_div4 {
+    margin-top: 250px;
+    vertical-align: bottom;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.befor-li {
+    list-style: none;
+    line-height: 1.8em;
+    font-family: Georgia, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+
+.befor-li:before {
+    content: url("../img/icons/quotes.svg");
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-top: -20px;
+    margin-left: -80px;
+    position: absolute;
+
+}
+
+#img_5 {
+    background: url(../img/covers/tea.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+}
+
+#img_3 {
+    background: url(../img/covers/books.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+}
+
+#text_in_div5 {
+    margin-top: 250px;
+    vertical-align: bottom;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#img_6 {
+    background: url(../img/covers/cab.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 100px 0px #000000 inset;
+
+}
+
+#text_in_div6 {
+    margin-top: 250px;
+    vertical-align: bottom;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#footer {
+    margin-top: 100px;
+    height: 200px;
+    border: 0px;
+    background-color: #585858;
+}
+
+div.wrapper {
+    position: relative;
+}
+
+article.slider {
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+article.slider section {
+    display: block;
+    display: none;
+    height: 500px;
+    width: 100%;
+}
+
+article.slider section:first-child {
+    background: #ffffff;
+}
+
+article.slider section:nth-child(2) {
+    background: #ffffff;
+}
+
+article.slider section:nth-child(3) {
+    background: #ffffff;
+}
+
+article.slider section:nth-child(4) {
+    background: #ffffff;
+}
+
+article.slider section:last-child {
+    background: #ffffff;
+}
+
+#raigth_arrow {
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/icons/chevron-thin-right.svg");
+    position: absolute;
+    z-index: 999;
+}
+
+#left_arrow {
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/icons/chevron-thin-left.svg");
+    position: absolute;
+    z-index: 999;
+}
+
